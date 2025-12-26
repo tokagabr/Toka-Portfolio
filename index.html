@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="assets/vite.svg" />  <!-- تعديل المسار هنا -->
+    <link rel="icon" type="image/svg+xml" href="assets/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toka Gamal Gabr - Data & Business Analyst Portfolio</title>
     <meta name="description" content="Entry-Level Data & Business Analyst specializing in BI dashboards, data analysis, and business process optimization." />
@@ -14,20 +14,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Include the styles and JS files -->
     <script type="module" crossorigin src="assets/index-IRK19AxA.js"></script>
     <link rel="stylesheet" crossorigin href="assets/index-Bqamc-bE.css">
-
   </head>
+
   <body>
-    <!-- Hero Section with Image inside -->
+    <!-- Hero Section -->
     <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-blue-500/10 animate-pulse-slow"></div>
 
       <div class="max-w-6xl mx-auto px-6 py-20 relative z-10">
         <div class="flex flex-col md:flex-row items-center gap-12">
           <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-400 shadow-2xl shadow-teal-500/30 animate-fade-in">
-            <!-- Image placed here -->
-            <img src="assets/1.png" alt="Toka Gamal Gabr" class="w-full h-full object-cover"/>
+            <!-- Update the image source path here -->
+            <img src="1.png" alt="Toka Gamal Gabr" class="w-full h-full object-cover" />
           </div>
 
           <div class="flex-1 text-center md:text-left animate-slide-up">
@@ -42,7 +43,7 @@
               Specializing in BI dashboards, KPI tracking, and data-driven decision support for stakeholders.
             </p>
 
-            <!-- CTA Buttons -->
+            <!-- Buttons Section -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button
                 onClick={scrollToProjects}
@@ -56,7 +57,6 @@
                 rel="noopener noreferrer"
                 class="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2"
               >
-                <Download size={20} />
                 Download CV
               </a>
             </div>
@@ -64,5 +64,7 @@
         </div>
       </div>
     </section>
+
+    <div id="root"></div>
   </body>
 </html>
